@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo Consumo</title>
+</head>
+<body>
+    <h3>¿Alcohol o Gasolina?</h3>
+    
+    <script>
+        function Gasolina(){
+            document.write("Recorrido utilizando gasolina"); 
+        var tanque = 40;
+        var recorrido = 480;
+
+        var eficiencia = recorrido / tanque;
+
+        document.write("</br>La eficiencia es: " + eficiencia);
+        }
+
+        function Alcohol(){
+            document.write("</br></br>Recorrido utilizando alcohol"); 
+        var tanque = 40;
+        var recorrido = 300;
+
+        var eficiencia = recorrido / tanque;
+
+        document.write("</br>La eficiencia es: " + eficiencia);
+        }
+
+        Gasolina();
+        Alcohol();
+    </script>
+
+</body>
+</html>
